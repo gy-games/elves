@@ -4,3 +4,21 @@
 [submodule "openapi"]
 	path = openapi
 	url = https://github.com/elves-project/openapi.git
+[submodule "scheduler"]
+	path = scheduler
+	url = https://github.com/elves-project/scheduler.git
+[submodule "appsdk-python"]
+	path = appsdk-python
+	url = https://github.com/elves-project/appsdk-python.git
+[submodule "supervisor"]
+	path = supervisor
+	url = https://github.com/elves-project/supervisor.git
+[submodule "heartbeat"]
+	path = heartbeat
+	url = https://github.com/elves-project/heartbeat.git
+[submodule "queue"]
+	path = queue
+	url = https://github.com/elves-project/queue.git
+[submodule "cron"]
+	path = cron
+	url = https://github.com/elves-project/cron.git
