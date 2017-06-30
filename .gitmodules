@@ -1,0 +1,6 @@
+[submodule "agent"]
+	path = agent
+	url = https://github.com/elves-project/agent.git
+[submodule "openapi"]
+	path = openapi
+	url = https://github.com/elves-project/openapi.git
