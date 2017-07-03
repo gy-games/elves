@@ -8,11 +8,6 @@
 
 https://gy-games.gitbooks.io/elves/
 
-# Organization
-
-https://github.com/elves-project
-
-
 
 
 # License
