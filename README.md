@@ -26,11 +26,11 @@ Elves为一套开源自动化运维开发平台\(IT Automatic Develop Platform\)
 
 # 定位
 
-可能看完以上的介绍甚至看完\[[elves-wiki](https://gy-games.gitbooks.io/elves/content/intro.md)\]中的技术架构后以下的架构还会有些人有疑问，ELVES到底能做什么，它在运维自动化中扮演什么样的角色，这里来简单介绍一下，了解完后结合\[[ELVES实践案例](https://gy-games.gitbooks.io/elves/content/practice.md)\]能对ELVES有一个更清晰的认识。
+可能看完以上的介绍甚至看完\[[elves-wiki](https://gy-games.gitbooks.io/elves/content/intro.md)\]中的技术架构后还会有些人有疑问，ELVES到底能做什么，它在运维自动化中扮演什么样的角色，这里来简单介绍一下，了解完后结合\[[ELVES实践案例](https://gy-games.gitbooks.io/elves/content/practice.md)\]能对ELVES有一个更清晰的认识。
 
-**站在自动化系统与操作系统OS及服务交互角度**，运维自动化系统正走在向平台化，更优质的用户体验提升的道路上，往往此类产品均为WEB端或桌面的形式提供运维使用， 这类运维自动化系统若需要与业务操作系统OS或与操作系统上的服务进行交互的时候往往需要自己定义通讯以及调用的实现方式。通过ELVES后，此类运维自动化系统将可以全部面向统一的EVELS API接口，ELVES API的背后为运维所开发的各种业务的实现脚本。![](https://gy-games.gitbooks.io/elves/content/assets/system-implemention.png)
+**站在自动化系统与操作系统OS及服务交互角度**，运维自动化系统正走在集中式、平台化、提供更优质的用户体验的道路上，往往此类产品均为WEB端或桌面端的形式提供运维使用， 这类运维自动化系统若需要与业务操作系统OS或与操作系统上的服务进行交互的时候往往需要自己定义通讯以及调用的实现方式。通过ELVES后，此类运维自动化系统将可以全部面向统一的EVELS API接口，ELVES API的背后为各种具体功能业务的实现。![](https://gy-games.gitbooks.io/elves/content/assets/system-implemention.png)
 
-**站在运维团队与开发\(前端\)团队合作角度**，运维团队更懂系统，更懂业务并但产品感不强，前端等技能欠缺，开发\(前端\)团队产品感强，有较好的产品实现技能如前端JS,CCS等,但其不熟悉运维业务，更不了解具体业务实现。通过ELVES，开发\(前端\)团队将面向面向的ELVES API接口，运维团队将更加专注的面向脚本，面向具体功能的![](https://gy-games.gitbooks.io/elves/content/assets/op-with-dev.png)
+**站在运维团队与开发\(前端\)团队合作角度**，运维团队更懂系统，更懂业务并但产品感不强，前端等技能欠缺，开发\(前端\)团队产品感强，有较好的产品实现技能如前端JS,CCS等,但其不熟悉系统、运维业务，更不了解具体业务实现。通过ELVES，开发\(前端\)团队将面向面向的ELVES API接口，运维团队将更加专注的面向面向具体功能的实现![](https://gy-games.gitbooks.io/elves/content/assets/op-with-dev.png)
 
 # License
 Licensed under the Apache License, Version 2.0
