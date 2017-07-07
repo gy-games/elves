@@ -1,7 +1,4 @@
-# ELVES
-*IT Automatic Develop Platform*
-
-# 介绍
+# ELVES ( IT Automatic Develop Platform )
 
 Elves为光宇游戏运维团队开源的一套自动化运维开发平台\(IT Automatic Develop Platform\)，面向开发，注重以编程实现运维自动化，致力于为运维研发人员提供便捷的运维自动化业务编程实现环境， Elves自身不提供业务性功能，运维开发人员可根据自身的业务进行应用\(APP\)的开发来实现相应业务的自动化管理。
 
