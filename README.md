@@ -1,16 +1,16 @@
 # ELVES
 *IT Automatic Develop Platform*
 
-**注意**:  `master` 分支为团队开发分支，可能存在不稳定情况，请优先使用[[release]](https://github.com/gy-games/elves/releases "release")中的代码进行业务搭建。
+# 介绍
 
+Elves为光宇游戏运维团队开源的一套自动化运维开发平台\(IT Automatic Develop Platform\)，面向开发，注重以编程实现运维自动化，致力于为运维研发人员提供便捷的运维自动化业务编程实现环境， Elves自身不提供业务性功能，运维开发人员可根据自身的业务进行应用\(APP\)的开发来实现相应业务的自动化管理。
+
+**注意**:  `master` 分支为团队开发分支，可能存在不稳定情况，请优先使用[[release]](https://github.com/gy-games/elves/releases "release")中的代码进行业务搭建。
 
 # Community & ELVES-WIKI
 
 https://gy-games.gitbooks.io/elves/
 
-# 介绍
-
-Elves为一套开源自动化运维开发平台\(IT Automatic Develop Platform\)，面向开发，注重以编程实现运维自动化，致力于为运维研发人员提供便捷的运维自动化业务编程实现环境， Elves自身不提供业务性功能，运维开发人员可根据自身的业务进行应用\(APP\)的开发来实现相应业务的自动化管理。
 
 # 特性
 
@@ -31,6 +31,7 @@ Elves为一套开源自动化运维开发平台\(IT Automatic Develop Platform\)
 **站在自动化系统与操作系统OS及服务交互角度**，运维自动化系统正走在集中式、平台化、提供更优质的用户体验的道路上，往往此类产品均为WEB端或桌面端的形式提供运维使用， 这类运维自动化系统若需要与业务操作系统OS或与操作系统上的服务进行交互的时候往往需要自己定义通讯以及调用的实现方式。通过ELVES后，此类运维自动化系统将可以全部面向统一的EVELS API接口，ELVES API的背后为各种具体功能业务的实现。![](https://gy-games.gitbooks.io/elves/content/assets/system-implemention.png)
 
 **站在运维团队与开发\(前端\)团队合作角度**，运维团队更懂系统，更懂业务并但产品感不强，前端等技能欠缺，开发\(前端\)团队产品感强，有较好的产品实现技能如前端JS,CCS等,但其不熟悉系统、运维业务，更不了解具体业务实现。通过ELVES，开发\(前端\)团队将面向面向的ELVES API接口，运维团队将更加专注的面向面向具体功能的实现![](https://gy-games.gitbooks.io/elves/content/assets/op-with-dev.png)
+
 
 # License
 Licensed under the Apache License, Version 2.0
