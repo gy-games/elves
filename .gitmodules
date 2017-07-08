@@ -22,3 +22,6 @@
 [submodule "cron"]
 	path = cron
 	url = https://github.com/elves-project/cron.git
+[submodule "appsdk-csharp"]
+	path = appsdk-csharp
+	url = https://github.com/elves-project/appsdk-csharp.git
