@@ -1,0 +1,37 @@
+#!/bin/bash
+
+function packall() {
+    echo "PACK ELVES-AGENT"
+    chmod +x ./agent/control && ./agent/control pack
+    echo "PACK ELVES-CRON"
+    chmod +x ./cron/control && ./cron/control pack
+    echo "PACK ELVES-HEARTBEAT"
+    chmod +x ./heartbeat/control && ./heartbeat/control pack
+    echo "PACK ELVES-OPENAPI"
+    chmod +x ./openapi/control && ./openapi/control pack
+    echo "PACK ELVES-QUEUE"
+    chmod +x ./queue/control && ./queue/control pack
+    echo "PACK ELVES-SCHEDULER"
+    chmod +x ./scheduler/control && ./scheduler/control pack
+    echo "PACK ELVES-SUPERVISOR"
+    chmod +x ./supervisor/control && ./supervisor/control pack
+}
+
+function init(){
+    git submodule init
+    git submodule update
+}
+
+function help() {
+    echo "$0 init|packall"
+}
+
+if [ "$1" == "" ]; then
+    help
+elif [ "$1" == "packall" ];then
+    packall
+elif [ "$1" == "init" ];then
+    init
+else
+    help
+fi
