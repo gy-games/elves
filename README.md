@@ -5,7 +5,7 @@ Elves为光宇游戏运维团队开源的一套自动化运维开发平台\(IT A
 
 **注意**:  `master` 分支为团队开发分支，可能存在不稳定情况，请优先使用[[release]](https://github.com/gy-games/elves/releases "release")中的代码进行业务搭建。
 
-# Community & ELVES-WIKI
+# ELVES-WIKI
 
 https://gy-games.gitbooks.io/elves/
 
@@ -38,6 +38,10 @@ https://gy-games.gitbooks.io/elves/
 **站在自动化系统与操作系统OS及服务交互角度**，运维自动化系统正走在集中式、平台化、提供更优质的用户体验的道路上，往往此类产品均为WEB端或桌面端的形式提供运维使用， 这类运维自动化系统若需要与业务操作系统OS或与操作系统上的服务进行交互的时候往往需要自己定义通讯以及调用的实现方式。通过ELVES后，此类运维自动化系统将可以全部面向统一的EVELS API接口，ELVES API的背后为各种具体功能业务的实现。![](https://gy-games.gitbooks.io/elves/content/assets/system-implemention.png)
 
 **站在运维团队与开发\(前端\)团队合作角度**，运维团队更懂系统，更懂业务并但产品感不强，前端等技能欠缺，开发\(前端\)团队产品感强，有较好的产品实现技能如前端JS,CCS等,但其不熟悉系统、运维业务，更不了解具体业务实现。通过ELVES，开发\(前端\)团队将面向面向的ELVES API接口，运维团队将更加专注的面向面向具体功能的实现![](https://gy-games.gitbooks.io/elves/content/assets/op-with-dev.png)
+
+# Community
+
+<a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=dfc4404559856ad1c518bff273b35869d0fda18b3ecbdada1dd74c600dcd34b0"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="ELVES" title="ELVES"></a>
 
 # License
 Licensed under the Apache License, Version 2.0
