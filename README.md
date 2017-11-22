@@ -11,8 +11,8 @@ https://gy-games.gitbooks.io/elves/
 
 ## Installation
 
-- [快速安装](https://gy-games.gitbooks.io/elves/quickinstall.html)
-- [Docker一键部署](https://gy-games.gitbooks.io/elves/quickinstall/docker.html)
+- [快速部署](https://gy-games.gitbooks.io/elves/quickinstall.html)
+- [Docker部署](https://gy-games.gitbooks.io/elves/quickinstall/docker.html)
 
 ## Developer's Guide
  - [调试HelloWord示例](https://gy-games.gitbooks.io/elves/dev/helloword.html)
