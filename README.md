@@ -5,7 +5,7 @@ Elves为光宇游戏运维团队开源的一套自动化运维开发平台\(IT A
 
 **注意**:  `master` 分支为团队开发分支，可能存在不稳定情况，请优先使用[[release]](https://github.com/gy-games/elves/releases "release")中的代码进行业务搭建。
 
-# wiki
+# Wiki
 
 https://gy-games.gitbooks.io/elves/
 
