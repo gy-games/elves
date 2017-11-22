@@ -25,3 +25,7 @@
 [submodule "appsdk-csharp"]
 	path = appsdk-csharp
 	url = https://github.com/elves-project/appsdk-csharp.git
+	
+[submodule "dashboard"]
+	path = dashboard
+	url = git@github.com:elves-project/dashboard.git
